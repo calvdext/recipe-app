@@ -6,6 +6,9 @@
                     <%= link_to "Home", root_path, class: "nav-item p-3 mb-2 bg-primary text-white" %>
                 </li>
                 <li>
+                    <%= link_to "Recipies", recipes_path, class: "nav-item p-3 mb-2 bg-primary text-white" %>
+                </li>
+                <li>
                     <%= link_to "Sign Out", destroy_user_session_path, class: "nav-item  p-3 mb-2 bg-primary text-white", method: "delete" %>
                 </li>
         <% else %>
